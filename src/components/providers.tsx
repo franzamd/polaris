@@ -29,8 +29,8 @@ export const Providers = ({ children }: { children: React.ReactNode }) => {
           </Authenticated>
           <Unauthenticated>
             <UnauthenticatedView />
+            <AuthLoadingView />
           </Unauthenticated>
-          <AuthLoadingView />
         </ThemeProvider>
       </ConvexProviderWithClerk>
     </ClerkProvider>
